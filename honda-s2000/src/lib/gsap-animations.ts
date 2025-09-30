@@ -47,7 +47,7 @@ export function loader() {
         opacity: 0,
         duration: 1
       }, 0)
-      .call(home, null, "-=1.2");
+      .call(home, [], "-=1.2");
   }
 
   let tl = gsap.timeline({

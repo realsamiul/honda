@@ -1,6 +1,6 @@
 {
-  "framework": "nextjs",
   "buildCommand": "cd honda-s2000 && npm run build",
   "installCommand": "cd honda-s2000 && npm install",
-  "outputDirectory": "honda-s2000/.next"
+  "outputDirectory": "honda-s2000/.next",
+  "framework": "nextjs"
 }
