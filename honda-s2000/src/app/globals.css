@@ -1,0 +1,29 @@
+.w-webflow-badge {
+  display: none !important;
+  visibility: none !important;
+  z-index: 0 !important;
+} 
+
+html { 
+  height: auto !important; 
+}
+
+.grain { 
+  position: fixed !important;
+}
+
+.formula::before {
+  content: "";
+  display: table;
+  margin-bottom: calc(-0.4lh + 0.5em);
+}
+
+.formula::after {
+  content: "";
+  display: table;
+  margin-bottom: calc(-0.4lh + 0.3em);
+}
+
+.big-para {
+  font-size: var(--big-para);
+}
