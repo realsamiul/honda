@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import local CSS files */
+@import url('/css/s-2k.webflow.shared.6ae152944.css');
+@import url('/css/styles.css');
+
+/* Add any additional global styles or imports from original CSS here */
+
 .w-webflow-badge {
   display: none !important;
   visibility: none !important;

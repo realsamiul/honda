@@ -1,7 +1,7 @@
 import { gsap } from 'gsap';
+import { SplitText, ScrollTrigger, CustomEase, ScrambleTextPlugin } from 'gsap/all';
 
-// Register GSAP plugins (these would need to be installed separately)
-// gsap.registerPlugin(SplitText, ScrollTrigger, CustomEase, ScrambleTextPlugin);
+gsap.registerPlugin(SplitText, ScrollTrigger, CustomEase, ScrambleTextPlugin);
 
 const textEase = "M0,0 C0.312,0.153 0.387,0.326 0.495,0.509 0.593,0.676 0.684,1.017 1,1 ";
 const ease = "M0,0 C0.7,0.024 0.199,0.976 1,1 ";
